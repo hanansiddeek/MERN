@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "fect-app",
+    "slug": "fect-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/splash-1.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "context",
+      "backgroundColor": "#ddebed"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.hanansiddeek.fectapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "b4015c26-0dec-4ac7-9ca3-b170278ade07"
+      }
+    }
+  }
+}
